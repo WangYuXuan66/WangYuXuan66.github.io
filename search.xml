@@ -32,15 +32,15 @@
 
 
 
-<p> <img src="/.io//1.png"></p>
+<p> ![](Git出现 SSL certificate problem报错的解决方法/1.png)</p>
 <h3 id="2、第二种"><a href="#2、第二种" class="headerlink" title="2、第二种"></a>2、第二种</h3><h4 id="1-找到并打开配置文件"><a href="#1-找到并打开配置文件" class="headerlink" title="1)找到并打开配置文件"></a>1)找到并打开配置文件</h4><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">vim  ~/.gitconfig</span><br></pre></td></tr></table></figure>
 
 
 
-<p> <img src="/.io//2.png"></p>
-<h4 id="2）将“sslverify”的值改为“false”，注意“-”号两边有空格，保存退出“ZZ”。"><a href="#2）将“sslverify”的值改为“false”，注意“-”号两边有空格，保存退出“ZZ”。" class="headerlink" title="2）将“sslverify”的值改为“false”，注意“=”号两边有空格，保存退出“ZZ”。"></a>2）将“sslverify”的值改为“false”，注意“=”号两边有空格，保存退出“ZZ”。</h4><p> <img src="/.io//3.png"></p>
+<p> ![](Git出现 SSL certificate problem报错的解决方法/2.png)</p>
+<h4 id="2）将“sslverify”的值改为“false”，注意“-”号两边有空格，保存退出“ZZ”。"><a href="#2）将“sslverify”的值改为“false”，注意“-”号两边有空格，保存退出“ZZ”。" class="headerlink" title="2）将“sslverify”的值改为“false”，注意“=”号两边有空格，保存退出“ZZ”。"></a>2）将“sslverify”的值改为“false”，注意“=”号两边有空格，保存退出“ZZ”。</h4><p> ![](Git出现 SSL certificate problem报错的解决方法/3.png)</p>
 <h2 id="三、验证"><a href="#三、验证" class="headerlink" title="三、验证"></a>三、验证</h2><p>执行命令 “git config –global –list”，“http.sslverify = false”表示成功</p>
-<p> <img src="/.io//4.png"></p>
+<p> ![](Git出现 SSL certificate problem报错的解决方法/4.png)</p>
 <h2 id="四、解决完毕"><a href="#四、解决完毕" class="headerlink" title="四、解决完毕"></a>四、解决完毕</h2><p>可以正常执行“git push”（推送分支）或者“git clone”（克隆仓库）啦！</p>
 ]]></content>
       <categories>
