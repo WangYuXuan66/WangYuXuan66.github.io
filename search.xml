@@ -1,6 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>走进Liunx</title>
+    <url>/posts/198479022/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很多博友或多或少都接触过Linux操作系统，本篇文章带大家深入了解Liunx。</p>
+ <span id="more"></span>
+
+
+
+<h3 id="一、Linux-简介"><a href="#一、Linux-简介" class="headerlink" title="一、Linux 简介"></a>一、Linux 简介</h3><p>Linux操作系统是基于UNIX操作系统发展而来的一种克隆系统，它诞生于1991 年的 [Linux桌面] 10 月5 日（这是第一次正式向外公布的时间）。以后借助于Internet网络，并通过全世界各地计算机爱好者的共同努力，已成为今天世界上使用最多的一种UNIX 类操作系统，并且使用人数还在迅猛增长。</p>
+<p><img src="/posts/198479022/1.jpg"></p>
+   <center>图源360百科</center>
+
+
+
+<p>Linux是一套免费使用和自由传播的类Unix操作系统，是一个基于POSIX和UNIX的多用户、多任务、支持多线程和多CPU的操作系统。它能运行主要的UNIX工具软件、应用程序和网络协议。它支持32位和64位硬件。Linux继承了Unix以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。它主要用于基于Intel x86系列CPU的计算机上。这个系统是由全世界各地的成千上万的程序员设计和实现的。其目的是建立不受任何商品化软件的版权制约的、全世界都能自由使用的Unix兼容产品。</p>
+<h3 id="二、Linux之父"><a href="#二、Linux之父" class="headerlink" title="二、Linux之父"></a>二、Linux之父</h3><p>林纳斯·本纳第克特·托瓦兹(Linus Benedict Torvalds, 1969年~ )，著名的电脑程序员、黑客。Linux内核的发明人及该计划的合作者。托瓦兹利用个人时间及器材创造出了这套当今全球最流行的操作系统(作业系统)内核之一。现受聘于开放源代码开发实验室(OSDL:Open Source Development Labs, Inc)，全力开发Linux内核。</p>
+<p>​                                                                   <img src="/posts/198479022/2.png"></p>
+   <center>图源360百科</center>
+
+<p>“有些人生来就具有统率百万人的领袖风范;另一些人则是为写出颠覆世界的软件而生。唯一一个能同时做到这两者的人，就是托瓦兹。”美国《时代》周刊对”Linux之父”林纳斯·托瓦兹(Linus Torvalds)给出了极高的评价。甚至，在《时代》周刊根据读者投票评选出的二十世纪100位最重要人物中，林纳斯居然排到了第15位，而从20世纪的最后几年就开始霸占全球首富称号的盖茨不过才是第17位。</p>
+<h3 id="三、常见Linux发行版本（介绍顺序不分先后）"><a href="#三、常见Linux发行版本（介绍顺序不分先后）" class="headerlink" title="三、常见Linux发行版本（介绍顺序不分先后）"></a>三、常见Linux发行版本（介绍顺序不分先后）</h3><h4 id="Ubuntu"><a href="#Ubuntu" class="headerlink" title="Ubuntu"></a>Ubuntu</h4><p>Ubuntu是基于Debian GNU/Linux，支持x86、amd64(即x64)和ppc架构，由全球化的专业开发团队(Canonical Ltd)打造的开源GNU/Linux操作系统。Ubuntu对GNU/Linux的普及特别是桌面普及作出了巨大贡献，由此使更多人共享开源的成果与精彩。<br>Ubuntu是一个南非的民族观念，该词来自于祖鲁语和科萨语，意为人们之间的忠诚和联系。被视为非洲人的传统理念，也是建立新南非共和国的基本原则之一，与非洲复兴的理想密切相关。Ubuntu 精神的大意是”人道待人”。另一种翻译可以是:”天下共享的信念，连接起每个人”。</p>
+<p><img src="/posts/198479022/3.jpg"></p>
+   <center>图源360百科</center>
+
+
+
+<p>Ubuntu每6个月发布一个新版本，而每个版本都有代号和版本号。版本号基于发布日期，例如第一个版本，4.10，代表是在2004年10月发行的。</p>
+<h4 id="CentOS"><a href="#CentOS" class="headerlink" title="CentOS"></a>CentOS</h4><p>CentOS是免费的、开源的、可以重新分发的开源操作系统 ，CentOS(Community Enterprise Operating System，中文意思是社区企业操作系统)是Linux发行版之一。</p>
+<p>​                                                         </p>
+<p><img src="/posts/198479022/4.png"></p>
+   <center>图源360百科</center>
+
+
+
+<p>CentOS Linux发行版是一个稳定的，可预测的，可管理的和可复现的平台，源于Red Hat Enterprise Linux(RHEL)依照开放源代码(大部分是GPL开源协议 )规定释出的源码所编译而成。<br>每个版本的 CentOS都会获得十年的支持(通过安全更新方式)，新版本的 CentOS 大约每两年发行一次。而每个版本的 CentOS 会定期(大概每六个月)更新一次，以便支持新的硬件。通过这样建立一个安全、低维护、稳定、高预测性、高重复性的 Linux 环境。</p>
+<h4 id="Red-Hat"><a href="#Red-Hat" class="headerlink" title="Red Hat"></a>Red Hat</h4><p>Red Hat(红帽)公司(NYSE:RHT)是一家开源解决方案供应商，红帽公司为诸多重要IT技术如操作系统、存储、中间件、虚拟化和云计算提供关键任务的软件与服务。红帽的开放源码模式提供跨物理、虚拟和云端环境的企业运算解决方案，以帮助企业降低成本并提升效能、稳定性与安全性。红帽公司同时也为全球客户或通过领先合作伙伴为客户提供技术支持、培训和咨询服务。</p>
+<p><img src="/posts/198479022/5.jpg"></p>
+   <center>图源360百科</center>
+
+
+<p>Redhat有两大Linux产品系列，其中是免费的Fedora Core系列主要用于桌面版本，提供了更多新特性的支持。另外一个产品系列是收费的Enterprise系列，即RHEL（Redhat Enterprise Linux）</p>
+<h4 id="Debin"><a href="#Debin" class="headerlink" title="Debin"></a>Debin</h4><p>Debian：计划是一个致力于创建一个自由操作系统的合作组织。创建的这个操作系统名为 Debian GNU/Linux，简称为 Debian。操作系统是使计算机运行的基本程序和工具的集合，其中最主要的部分称为内核（kernel)。内核是计算机中最重要的程序，负责一切基本的调度工作，并让您运行其他程序。</p>
+<p><img src="/posts/198479022/6.png"></p>
+   <center>图源360百科</center>
+
+
+
+<p>广义的Debian是指一个致力于创建自由操作系统的合作组织及其作品，由于Debian项目众多内核分支中以Linux宏内核为主，而且 Debian开发者 所创建的操作系统中绝大部分基础工具来自于GNU工程 ，因此 “Debian” 常指Debian GNU/Linux。</p>
+<p>Debian的发行及其软件源有五个分支:旧稳定分支(oldstable)、稳定分支(stable)、测试分支(testing)、不稳定分支(unstable)、实验分支(experimental)。</p>
+<p>发行生命周期<br>Debian 通常会按照一定的规律每隔一段时间发布一个新稳定版。 对每个稳定发行版本，用户可以得到三年的完整支持以及额外两年的长期支持。</p>
+<h4 id="SUSE"><a href="#SUSE" class="headerlink" title="SUSE"></a>SUSE</h4><p>SUSE Linux 原来是德国的 SuSE Linux AG公司发行维护的Linux发行版，是属于此公司的注册商标。2004年这家公司被Novell公司收购。openSUSE 项目是由 Novell 发起的开源社区计划。旨在推进 Linux 的广泛使用。openSUSE是Novell的开源Linux项目，旨在推进 Linux 的广泛使用。该项目为 Linux开发者和爱好者提供了开始使用 Linux 所需要的一切。openSUSE 原名 SUSE Linux，10.2版本以后改名为openSUSE。</p>
+<p><img src="/posts/198479022/7.jpg"></p>
+   <center>图源360百科</center>
+
+
+
+<p>openSUSE项目的目标是使 SUSE Linux 成为所有人都能够得到的最易于使用的 Linux 发行版，同时努力使其成为使用最广泛的开放源代码平台。为开放源代码合作者提供一个环境来把 SUSE Linux 建设成世界上最好的 Linux 发行版，不论是为新用户或者有经验的 Linux 用户。大大简化并开放开发和打包流程，以使 openSUSE 成为 Linux 黑客和应用软件开发者的首选平台。</p>
+<h4 id="SlackwareLinux"><a href="#SlackwareLinux" class="headerlink" title="SlackwareLinux"></a>SlackwareLinux</h4><p>SlackwareLinux是由Patrick Volkerding制作的GNU/Linux发行版，它是世界上依然存活的最久的Linux发行版，在它的辉煌时期，曾经在所有发行版中拥有最多的用户数量。但是，随着 Linux商业化的浪潮，Redhat、Mandrake 和Suse 这些产品通过大规模的商业推广，占据了广大的市场；Debian作为一个社区发行版，也拥有很大的用户群。相比之下，Slackware的不事声张，使得它从许多人（尤其是使用Linux的新用户）的视野中消失了。</p>
+<p><img src="/posts/198479022/8.png"></p>
+   <center>图源360百科</center>
+
+
+
+<h3 id="三、总结"><a href="#三、总结" class="headerlink" title="三、总结"></a>三、总结</h3><p>一个典型的Linux发行版包括：Linux核心，一些GNU库和工具，命令行shell，图形界面的X窗口系统和相应的桌面环境，如KDE或GNOME，并包含数千种从办公包，编译器，文本编辑器到科学工具的应用软件。</p>
+]]></content>
+      <categories>
+        <category>系统运维</category>
+      </categories>
+      <tags>
+        <tag>系统运维</tag>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机网络基础</title>
+    <url>/posts/2595394334/</url>
+    <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很多博友对计算机网络感到陌生，本篇文章为大家介绍计算机网络的基础知识。</p>
+ <span id="more"></span>
+
+
+
+<h3 id="一、TCP-IP-协议"><a href="#一、TCP-IP-协议" class="headerlink" title="一、TCP/IP 协议"></a>一、TCP/IP 协议</h3><p><img src="/posts/2595394334/1.png"></p>
+   <center>图源360百科</center>
+
+<center>注：左侧 OSI模型 中间TCP\IP模型 右侧 每层对应的协议</center>
+
+
+
+<h4 id="1、OSI模型"><a href="#1、OSI模型" class="headerlink" title="1、OSI模型"></a>1、OSI模型</h4><p>OSI模型，即开放式通信系统互联参考模型(Open System Interconnection,OSI/RM,Open Systems Interconnection Reference Model)，是国际标准化组织(ISO)提出的一个试图使各种计算机在世界范围内互连为网络的标准框架，简称OSI。这是一种事实上被TCP/IP 4层模型淘汰的协议。在当今世界上没有大规模使用。</p>
+<h4 id="2、TCP-IP-是基于-TCP-和-IP-这两个最初的协议之上的不同的通信协议的大的集合。"><a href="#2、TCP-IP-是基于-TCP-和-IP-这两个最初的协议之上的不同的通信协议的大的集合。" class="headerlink" title="2、TCP/IP 是基于 TCP 和 IP 这两个最初的协议之上的不同的通信协议的大的集合。"></a>2、TCP/IP 是基于 TCP 和 IP 这两个最初的协议之上的不同的通信协议的大的集合。</h4><h5 id="1）TCP"><a href="#1）TCP" class="headerlink" title="1）TCP"></a>1）TCP</h5><p>TCP 用于从应用程序到网络的数据传输控制。<br>TCP 负责在数据传送之前将它们分割为 IP 包，然后在它们到达的时候将它们重组。</p>
+<h5 id="2）IP-网际协议"><a href="#2）IP-网际协议" class="headerlink" title="2）IP-网际协议"></a>2）IP-网际协议</h5><p>IP 负责计算机之间的通信。<br>IP 负责在因特网上发送和接收数据包。</p>
+<h3 id="二、TCP-IP协议中主机与主机之间通信的三要素"><a href="#二、TCP-IP协议中主机与主机之间通信的三要素" class="headerlink" title="二、TCP/IP协议中主机与主机之间通信的三要素"></a>二、TCP/IP协议中主机与主机之间通信的三要素</h3><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">主机通信三要素</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">IP地址</td>
+<td align="center">子网掩码</td>
+<td>网关</td>
+</tr>
+</tbody></table>
+<h4 id="1、IP地址"><a href="#1、IP地址" class="headerlink" title="1、IP地址"></a>1、IP地址</h4><p>IP地址是一个32位的二进制数，通常被分割为4个“8位二进制数”（也就是4个字节）。IP地址通常用“点分十进制”表示成（a.b.c.d）的形式，其中，a,b,c,d都是0~255之间的十进制整数。例：点分十进IP地址（100.4.5.6），实际上是32位二进制数（01100100.00000100.00000101.00000110）。</p>
+<h5 id="1）分类"><a href="#1）分类" class="headerlink" title="1）分类"></a>1）分类</h5><p>IP地址（英语：Internet Protocol Address）是一种在Internet上的给主机编址的方式，也称为网际协议地址。常见的IP地址，分为IPv4与IPv6两大类。</p>
+<h5 id="2）编址"><a href="#2）编址" class="headerlink" title="2）编址"></a>2）编址</h5><p>IP地址编址方案：IP地址编址方案将IP地址空间划分为A、B、C、D、E五类，其中A、B、C是基本类，D、E类作为多播和保留使用。<br>A类1-127<br>B类128-191<br>C类192-223<br>D类224-239组播(多播)<br>E类240-254科研</p>
+<h4 id="2、子网掩码"><a href="#2、子网掩码" class="headerlink" title="2、子网掩码"></a>2、子网掩码</h4><p>子网掩码(subnet mask)又叫网络掩码、地址掩码、子网络遮罩，它是一种用来指明一个IP地址的哪些位标识的是主机所在的子网，以及哪些位标识的是主机的位掩码。子网掩码不能单独存在，它必须结合IP地址一起使用。子网掩码只有一个作用，就是将某个IP地址划分成网络地址和主机地址两部分。<br>子网掩码是一个32位地址，用于屏蔽IP地址的一部分以区别网络标识和主机标识，并说明该IP地址是在局域网上，还是在远程网上。</p>
+<h5 id="1）常用的A、B、C三类IP地址的默认子网掩码"><a href="#1）常用的A、B、C三类IP地址的默认子网掩码" class="headerlink" title="1）常用的A、B、C三类IP地址的默认子网掩码"></a>1）常用的A、B、C三类IP地址的默认子网掩码</h5><p>A类255.0.0.0<br>B类255.255.0.0<br>C类255.255.255.0</p>
+<h4 id="3、网关"><a href="#3、网关" class="headerlink" title="3、网关"></a>3、网关</h4><p>网关(Gateway)又称网间连接器、协议转换器。网关在传输层上以实现网络互连，是最复杂的网络互连设备，仅用于两个高层协议不同的网络互连。网关既可以用于广域网互连，也可以用于局域网互连。 网关是一种充当转换重任的计算机系统或设备。在使用不同的通信协议、数据格式或语言，甚至体系结构完全不同的两种系统之间，网关是一个翻译器。与网桥只是简单地传达信息不同，网关对收到的信息要重新打包，以适应目的系统的需求。同时，网关也可以提供过滤和安全功能。大多数网关运行在OSI 7层协议的顶层–应用层。</p>
+<h3 id="三、查看当前主机IP地址、子网掩码、网关"><a href="#三、查看当前主机IP地址、子网掩码、网关" class="headerlink" title="三、查看当前主机IP地址、子网掩码、网关"></a>三、查看当前主机IP地址、子网掩码、网关</h3><h4 id="1、通过Windows-R快捷键可以打开“运行窗口”，在“窗口”中输入“cmd”，点击“确定”打开终端。"><a href="#1、通过Windows-R快捷键可以打开“运行窗口”，在“窗口”中输入“cmd”，点击“确定”打开终端。" class="headerlink" title="1、通过Windows+R快捷键可以打开“运行窗口”，在“窗口”中输入“cmd”，点击“确定”打开终端。"></a>1、通过Windows+R快捷键可以打开“运行窗口”，在“窗口”中输入“cmd”，点击“确定”打开终端。</h4><p><img src="/posts/2595394334/2.png"></p>
+<h4 id="2、输入以下命令-ipconfig-回车确认"><a href="#2、输入以下命令-ipconfig-回车确认" class="headerlink" title="2、输入以下命令 ipconfig 回车确认"></a>2、输入以下命令 ipconfig 回车确认</h4><p><img src="/posts/2595394334/3.png"></p>
+<h4 id="3、找到网络适配器，我的是无线网卡，红框内分别是IP地址（IPV4、IPV6）、子网掩码、网关"><a href="#3、找到网络适配器，我的是无线网卡，红框内分别是IP地址（IPV4、IPV6）、子网掩码、网关" class="headerlink" title="3、找到网络适配器，我的是无线网卡，红框内分别是IP地址（IPV4、IPV6）、子网掩码、网关"></a>3、找到网络适配器，我的是无线网卡，红框内分别是IP地址（IPV4、IPV6）、子网掩码、网关</h4><p><img src="/posts/2595394334/4.png"></p>
+<h3 id="四、检测主机是否连网"><a href="#四、检测主机是否连网" class="headerlink" title="四、检测主机是否连网"></a>四、检测主机是否连网</h3><p>检测是否连接到互联网，使用 ping 命令，ping <span class="exturl" data-url="aHR0cDovL3d3dy5iYWlkdS5jb20v">www.baidu.com<i class="fa fa-external-link-alt"></i></span> 有回复说明已连接</p>
+<p><img src="/posts/2595394334/5.png"></p>
+]]></content>
+      <categories>
+        <category>系统运维</category>
+      </categories>
+      <tags>
+        <tag>系统运维</tag>
+        <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>认识服务器</title>
     <url>/posts/3265820773/</url>
     <content><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很多博友对服务器感到陌生，本篇文章带大家揭开服务器神秘的面纱。</p>
