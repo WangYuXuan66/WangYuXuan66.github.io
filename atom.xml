@@ -6,7 +6,7 @@
   <link href="https://wangyuxuan66.github.io/atom.xml" rel="self"/>
   
   <link href="https://wangyuxuan66.github.io/"/>
-  <updated>2017-12-10T09:30:50.000Z</updated>
+  <updated>2018-12-10T09:30:50.000Z</updated>
   <id>https://wangyuxuan66.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>认识服务器</title>
+    <link href="https://wangyuxuan66.github.io/posts/3265820773/"/>
+    <id>https://wangyuxuan66.github.io/posts/3265820773/</id>
+    <published>2018-09-22T03:28:00.000Z</published>
+    <updated>2018-12-10T09:30:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>很多博友对服务器感到陌生，本篇文章带大家揭开服务器神秘的面纱。</p> <span id="more"></span><h2 id="一、服务器定义"><a href="#一、服务器定义" class="headerlink" title="一、服务器定义"></a>一、服务器定义</h2><p>服务器，也称伺服器，是提供计算服务的设备。由于服务器需要响应服务请求，并进行处理，因此一般来说服务器应具备承担服务并且保障服务的能力。</p><p>服务器的构成包括处理器、硬盘、内存、系统总线等，和通用的计算机架构类似，但是由于需要提供高可靠的服务，因此在处理能力、稳定性、可靠性、安全性、可扩展性、可管理性等方面要求较高。</p><h2 id="二、服务器分类"><a href="#二、服务器分类" class="headerlink" title="二、服务器分类"></a>二、服务器分类</h2><p>按服务器的机箱结构来划分，可以把服务器划分为”台式服务器”、”机架式服务器”、”机柜式服务器” 和”刀片式服务器”四类。</p><h3 id="1、台式服务器"><a href="#1、台式服务器" class="headerlink" title="1、台式服务器"></a>1、台式服务器</h3><p>台式服务器也称为”塔式服务器”。有的台式服务器采用大小与普通立式计算机大致相当的机箱，有的采用大容量的机箱，像个硕大的柜子。低档服务器由于功能较弱，整个服务器的内部结构比较简单，所以机箱不大，都采用台式机箱结构。这里所介绍的台式不是平时普通计算机中的台式，立式机箱也属于台式机范围，这类服务器在整个服务器市场中占有相当大的份额。</p><p><img src="/posts/3265820773/1.png"></p>   <center>图源百度百科</center><h3 id="2、机柜式服务器"><a href="#2、机柜式服务器" class="headerlink" title="2、机柜式服务器"></a>2、机柜式服务器</h3><p>在一些高档企业服务器中由于内部结构复杂，内部设备较多，有的还具有许多不同的设备单元或几个服务器都放在一个机柜中，这种服务器就是机柜式服务器。对于证券、银行、邮电等重要企业，则应采用具有完备的故障自修复能力的系统，关键部件应采用冗余措施，对于关键业务使用的服务器也可以采用双机热备份高可用系统或者是高性能计算机，这样的系统可用性就可以得到很好的保证。</p><p><img src="/posts/3265820773/2.png"></p>   <center>图源百度百科</center><h3 id="3、机架式服务器"><a href="#3、机架式服务器" class="headerlink" title="3、机架式服务器"></a>3、机架式服务器</h3><p>机架式服务器的外形看来不像计算机，而像交换机，有1U（1U=1.75英寸）、2U、4U等规格。机架式服务器安装在标准的19英寸机柜里面。这种结构的多为功能型服务器。<br>通常选用机械尺寸符合19英寸工业标准的机架式服务器。机架式服务器也有多种规格，例如1U（4.445cm高）、2U、4U、6U、8U等。通常1U的机架式服务器最节省空间，但性能和可扩展性较差，适合一些业务相对固定的使用领域。4U以上的产品性能较高，可扩展性好，一般支持4个以上的高性能处理器和大量的标准热插拔部件。</p><p><img src="/posts/3265820773/3.png"></p>   <center>图源百度百科</center><h3 id="4、刀片式服务器"><a href="#4、刀片式服务器" class="headerlink" title="4、刀片式服务器"></a>4、刀片式服务器</h3><p>刀片服务器是指在标准高度的机架式机箱内可插装多个卡式的服务器单元，是一种实现HAHD(High Availability High Density，高可用高密度)的低成本服务器平台，为特殊应用行业和高密度计算环境专门设计。刀片服务器就像“刀片”一样，每一块“刀片”实际上就是一块系统主板。</p><p><img src="/posts/3265820773/4.png"></p>   <center>图源百度百科</center><h2 id="三、一句话理解"><a href="#三、一句话理解" class="headerlink" title="三、一句话理解"></a>三、一句话理解</h2><p>服务器是一种管理计算资源的计算机</p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;很多博友对服务器感到陌生，本篇文章带大家揭开服务器神秘的面纱。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="系统运维" scheme="https://wangyuxuan66.github.io/categories/%E7%B3%BB%E7%BB%9F%E8%BF%90%E7%BB%B4/"/>
+    
+    
+    <category term="系统运维" scheme="https://wangyuxuan66.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%BF%90%E7%BB%B4/"/>
+    
+    <category term="服务器" scheme="https://wangyuxuan66.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>手动添加Git Bash Here到右键菜单 (超详细)</title>
@@ -30,6 +53,12 @@
     
     
     
+    <category term="Git" scheme="https://wangyuxuan66.github.io/categories/Git/"/>
+    
+    
+    <category term="git" scheme="https://wangyuxuan66.github.io/tags/git/"/>
+    
+    <category term="github" scheme="https://wangyuxuan66.github.io/tags/github/"/>
     
   </entry>
   
