@@ -6,7 +6,7 @@
   <link href="https://wangyuxuan66.github.io/atom.xml" rel="self"/>
   
   <link href="https://wangyuxuan66.github.io/"/>
-  <updated>2021-10-10T10:25:18.000Z</updated>
+  <updated>2021-07-02T09:30:50.000Z</updated>
   <id>https://wangyuxuan66.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Nodejs 下载安装步骤（Windows环境）</title>
+    <link href="https://wangyuxuan66.github.io/posts/181298691/"/>
+    <id>https://wangyuxuan66.github.io/posts/181298691/</id>
+    <published>2021-06-24T02:42:57.000Z</published>
+    <updated>2021-07-02T09:30:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本篇文章详细介绍了Node.js下载与安装方法</p> <span id="more"></span><h2 id="一、下载"><a href="#一、下载" class="headerlink" title="一、下载"></a>一、下载</h2><h4 id="1、官网地址"><a href="#1、官网地址" class="headerlink" title="1、官网地址"></a>1、官网地址</h4><p><span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3JnL3poLWNuL2Rvd25sb2FkLw==">Nodejs下载<i class="fa fa-external-link-alt"></i></span></p><h4 id="2、直接点击Windows安装包下载，或者点击64-bit下载“node-v14-18-1-x64-msi”-msi是Windows-installer开发出来的程序安装文件，用于安装，修改，卸载该文件"><a href="#2、直接点击Windows安装包下载，或者点击64-bit下载“node-v14-18-1-x64-msi”-msi是Windows-installer开发出来的程序安装文件，用于安装，修改，卸载该文件" class="headerlink" title="2、直接点击Windows安装包下载，或者点击64-bit下载“node-v14.18.1-x64.msi”(.msi是Windows installer开发出来的程序安装文件，用于安装，修改，卸载该文件)"></a>2、直接点击Windows安装包下载，或者点击64-bit下载“node-v14.18.1-x64.msi”(.msi是Windows installer开发出来的程序安装文件，用于安装，修改，卸载该文件)</h4><p><img src="/posts/181298691/1.jpg"> </p><h3 id="二、安装"><a href="#二、安装" class="headerlink" title="二、安装"></a>二、安装</h3><h4 id="1、在下载路径中找到“node-v14-18-1-x64-msi”，双击安装，此页面意思大致为“欢迎使用安装向导”；"><a href="#1、在下载路径中找到“node-v14-18-1-x64-msi”，双击安装，此页面意思大致为“欢迎使用安装向导”；" class="headerlink" title="1、在下载路径中找到“node-v14.18.1-x64.msi”，双击安装，此页面意思大致为“欢迎使用安装向导”；"></a>1、在下载路径中找到“node-v14.18.1-x64.msi”，双击安装，此页面意思大致为“欢迎使用安装向导”；</h4><p><img src="/posts/181298691/2.jpg"> </p><h4 id="2、阅读用户许可协议，完成后勾选我接受许可协议，点击“Next”前往下个页面；"><a href="#2、阅读用户许可协议，完成后勾选我接受许可协议，点击“Next”前往下个页面；" class="headerlink" title="2、阅读用户许可协议，完成后勾选我接受许可协议，点击“Next”前往下个页面；"></a>2、阅读用户许可协议，完成后勾选我接受许可协议，点击“Next”前往下个页面；</h4><p><img src="/posts/181298691/3.png"> </p><h4 id="3、选择安装位置默认为“C-Program-Files-nodejs-”，这里更换为“E-nodejs-”，点击“Next”前往下个页面；"><a href="#3、选择安装位置默认为“C-Program-Files-nodejs-”，这里更换为“E-nodejs-”，点击“Next”前往下个页面；" class="headerlink" title="3、选择安装位置默认为“C:\Program Files\nodejs\”，这里更换为“E:\nodejs\”，点击“Next”前往下个页面；"></a>3、选择安装位置默认为“C:\Program Files\nodejs\”，这里更换为“E:\nodejs\”，点击“Next”前往下个页面；</h4><p><img src="/posts/181298691/4.png"> </p><h4 id="4、自定义设置，按需修改，这里默认点击“Next”前往下个页面；"><a href="#4、自定义设置，按需修改，这里默认点击“Next”前往下个页面；" class="headerlink" title="4、自定义设置，按需修改，这里默认点击“Next”前往下个页面；"></a>4、自定义设置，按需修改，这里默认点击“Next”前往下个页面；</h4><p><img src="/posts/181298691/5.png"> </p><h4 id="5、勾选自动安装必要工具，点击“Next”前往下个页面；"><a href="#5、勾选自动安装必要工具，点击“Next”前往下个页面；" class="headerlink" title="5、勾选自动安装必要工具，点击“Next”前往下个页面；"></a>5、勾选自动安装必要工具，点击“Next”前往下个页面；</h4><p><img src="/posts/181298691/6.jpg"> </p><h4 id="6、最终确认，准备安装Node-Js，点击“Install”开始安装；"><a href="#6、最终确认，准备安装Node-Js，点击“Install”开始安装；" class="headerlink" title="6、最终确认，准备安装Node.Js，点击“Install”开始安装；"></a>6、最终确认，准备安装Node.Js，点击“Install”开始安装；</h4><p><img src="/posts/181298691/7.jpg"> </p><h4 id="7、安装中；"><a href="#7、安装中；" class="headerlink" title="7、安装中；"></a>7、安装中；</h4><p><img src="/posts/181298691/8.jpg">     </p><h4 id="8、安装完成，点击“Finish”退出安装向导；"><a href="#8、安装完成，点击“Finish”退出安装向导；" class="headerlink" title="8、安装完成，点击“Finish”退出安装向导；"></a>8、安装完成，点击“Finish”退出安装向导；</h4><p><img src="/posts/181298691/9.jpg"> </p><h4 id="9、为“Node-js”安装额外工具，任意键继续，可按回车两次（此为窗口自动打开，第五步不勾选则不会弹出该窗口）；"><a href="#9、为“Node-js”安装额外工具，任意键继续，可按回车两次（此为窗口自动打开，第五步不勾选则不会弹出该窗口）；" class="headerlink" title="9、为“Node.js”安装额外工具，任意键继续，可按回车两次（此为窗口自动打开，第五步不勾选则不会弹出该窗口）；"></a>9、为“Node.js”安装额外工具，任意键继续，可按回车两次（此为窗口自动打开，第五步不勾选则不会弹出该窗口）；</h4><p><img src="/posts/181298691/10.jpg"> </p><h4 id="10、程序会自动打开shell窗口，自动下载安装相关程序，请耐心等待；"><a href="#10、程序会自动打开shell窗口，自动下载安装相关程序，请耐心等待；" class="headerlink" title="10、程序会自动打开shell窗口，自动下载安装相关程序，请耐心等待；"></a>10、程序会自动打开shell窗口，自动下载安装相关程序，请耐心等待；</h4><p><img src="/posts/181298691/11.jpg"> </p><h4 id="11、安装完成后，打开cmd终端，输入“node-v”查看node版本，输入“npm-v”查看npm版本，有显示表示安装成功。"><a href="#11、安装完成后，打开cmd终端，输入“node-v”查看node版本，输入“npm-v”查看npm版本，有显示表示安装成功。" class="headerlink" title="11、安装完成后，打开cmd终端，输入“node -v”查看node版本，输入“npm -v”查看npm版本，有显示表示安装成功。"></a>11、安装完成后，打开cmd终端，输入“node -v”查看node版本，输入“npm -v”查看npm版本，有显示表示安装成功。</h4><p><img src="/posts/181298691/12.jpg"> </p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;本篇文章详细介绍了Node.js下载与安装方法&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Nodejs" scheme="https://wangyuxuan66.github.io/categories/Nodejs/"/>
+    
+    
+    <category term="Nodejs" scheme="https://wangyuxuan66.github.io/tags/Nodejs/"/>
+    
+  </entry>
   
   <entry>
     <title>Git 的安装教程（详解每个步骤）</title>
